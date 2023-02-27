@@ -4,7 +4,7 @@ end)
 
 print("Made by Reno")
 
-for _,Player in pairs(game.Players.LocalPlayer.Character.Parent) do
+for _,Player in pairs(game.Players.LocalPlayer.Character.Parent:GetChildren) do
 	if (Player:FindFirstChild("Humanoid")) then
 		local highlight = Instance.new("Highlight", Player)
 		print("added ESP to "..Player.Name)
