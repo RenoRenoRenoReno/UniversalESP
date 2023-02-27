@@ -1,3 +1,7 @@
+if (game.PlaceId == 5938036553) then
+	game.Players.LocalPlayer:Kick("This game does not support univerasl ESP./ ")
+end)
+
 print("Made by Reno")
 
 for _,Player in pairs(game.Players.LocalPlayer.Character.Parent) do
